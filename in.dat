@@ -1,0 +1,6 @@
+501         num, grid size
+-1200.0d0   U1, Depth of well (eV): default = -2000
+0.080d0     x0,  Equilibrium position in nanometer (nm)
+0.0750d0    S,   Shape of well 1/nm           
+0.01d0       xMin, starting position (nm)
+0.9000d0    xMax, end position (nm)
