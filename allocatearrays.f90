@@ -1,0 +1,21 @@
+subroutine allocarrays()
+use params
+allocate(x(mesh))
+allocate(v(mesh))
+allocate(Vmat(mesh,mesh))
+allocate(Amat(mesh,mesh))
+allocate(Bmat(mesh,mesh))
+allocate(BmatInv(mesh,mesh))
+allocate(Tmat(mesh,mesh))
+allocate(Hmat(mesh,mesh))
+allocate(Psi(mesh,mesh))
+allocate(Prob(mesh,mesh))
+allocate(IPIV(mesh))
+allocate(WORK1(LWORK1))
+allocate(W(mesh))
+allocate(Z(mesh,mesh))
+allocate(AB(LDAB,N))
+allocate(WORK2(1:LWORK2))
+allocate(IWORK(LIWORK))
+
+end subroutine allocarrays
